@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a{
+    color:rgb(23, 104, 209);
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:visited{
+    color: rgb(22, 114, 14);
+}
+a:hover{ text-decoration: underline;
+
+}
+a:active{
+    color: rgb(25, 180, 228);
+}
+a::after{
+    content:'[link]';
+    color: rgba(156, 177, 240, 0.685);
+}
+.vitoria{
+    background-color: rgba(156, 177, 240, 0.685);
+}
+.vitoria::after{
+    content: '⤌';
+    color: rgb(48, 112, 196);
+}
+.vitoria::before{
+    content:'⤍' ;
+    color: rgb(48, 112, 196);
+}
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <li><a href="https://github.com/Vitcr538/VickTreino.git"class="vitoria"target="_black">Meu repositorio</a</li>
+    <li><a href="https://youtube.com/cursoemvideo/"target="_black">canal do youtube do professor Guanabara</a></li>
+    <li><a href="http://www.cursoemvideo.com"target="_black">Site do curso em video</a></li>
+
+</body>
+</html>
